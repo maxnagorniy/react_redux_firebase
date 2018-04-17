@@ -12,6 +12,8 @@ export function getPosts () {
   }
 }
 
+
+
 export function savePost(post) {
   return dispatch => database.push(post)
 }
